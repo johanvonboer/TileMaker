@@ -48,19 +48,13 @@ def makeTiles():
             tile.save(filename=currentTargetDirectory+"/"+tileFilename)
             scaleTile(currentTargetDirectory+"/"+tileFilename)
         
-
         baseFactor = baseFactor * 2
 
 
 
 def scaleTile(tilePath):
     img = cv2.imread(tilePath, cv2.IMREAD_UNCHANGED)
-    
-    scale_percent = 60 # percent of original size
-    width = 256
-    height = 256
-    dim = (width, height)
-    # resize image
+    dim = (256, 256)
     resized = cv2.resize(img, dim, interpolation = cv2.INTER_AREA)
     cv2.imwrite(tilePath, resized)
 
