@@ -8,6 +8,6 @@ This program takes an image as input and creates map tiles in a directory struct
 * Requested zoom level will have a huge impact on processing time and final directory size. Maximum support zoom level is 7, because this is the max number of tiles supported by the image_slicer package.
 
 ## Output
-* Program will create ´tiles´ directory containing map tiles which can then be served with URL's like: http://example.com/{z}/{x}/{y}.png
+* Program will create `tiles` directory containing map tiles which can then be served with URL's like: http://example.com/{z}/{x}/{y}.png
 * Output tiles will be scaled to 256x256 pixels.
 
