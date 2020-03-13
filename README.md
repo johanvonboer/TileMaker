@@ -14,3 +14,7 @@ This program takes an image as input and creates map tiles in a directory struct
 * Program will create `tiles` directory containing map tiles which can then be served with URL's like: http://example.com/{z}/{x}/{y}.png
 * Output tiles will be scaled to 256x256 pixels.
 
+## Credits
+* https://github.com/samdobson/image_slicer
+
+* https://github.com/Mindwerks/worldengine
