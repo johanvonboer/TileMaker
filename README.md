@@ -2,6 +2,9 @@
 
 This program takes an image as input and creates map tiles in a directory structure which can be used as a baselayer in application such as OpenLayers, Cesium and others.
 
+## Running
+`python TileMaker.py` will generate tiles with the default map source file and default zoom levels, specified in the config.ini
+
 ## Things to consider
 * Input image should be high resolution, the higher the better.
 * Input image should be square.
